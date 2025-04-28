@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #0077b6;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+main {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.perfil {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.foto-perfil {
+    margin-bottom: 20px;
+}
+
+.foto-perfil img {
+    width: 150px; /* Ajuste o tamanho da foto aqui */
+    height: 150px;
+    border-radius: 50%; /* Torna a foto redonda */
+    object-fit: cover; /* Mantém a proporção da imagem */
+    border: 3px solid #0077b6; /* Borda azul em volta da foto */
+}
+
+h1, h2 {
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+footer {
+    background-color: #003049;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}

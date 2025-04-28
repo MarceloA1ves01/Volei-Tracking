@@ -3,44 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VOLEITRACKING</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Marcelo Alves - Perfil</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>VOLEI TRACKING</h1>
-        </header>
-        <section class="configuration">
-            <h2>Configuração da Partida</h2>
-            <div class="teams">
-                <input type="text" id="teamA" placeholder="Time A">
-                <input type="text" id="teamB" placeholder="Time B">
-                <input type="number" id="sets" value="5" min="1" placeholder="Sets">
-                <input type="number" id="points" value="25" min="1" placeholder="Pontuação">
-                <button onclick="startGame()">Continuar</button>
+    <header>
+        <h1>Marcelo Alves</h1>
+        <p>Desenvolvedor de Sistemas | Atleta de Vôlei</p>
+    </header>
+
+    <main>
+        <section class="perfil">
+            <div class="foto-perfil">
+                
+                <img src="download.jpg" alt="">
             </div>
+            <h2>Sobre Mim</h2>
+            <p>Olá! Meu nome é Marcelo Alves. Atualmente estou cursando <strong>Desenvolvimento de Sistemas</strong> no <strong>Sesi/Senai</strong> e também sou atleta de <strong>vôlei</strong>. Gosto de tecnologia, esportes e estou sempre buscando aprender mais!</p>
         </section>
 
-        <section class="during-game" style="display:none;">
-            <h2>Partida em Andamento</h2>
-            <div class="scoreboard">
-                <div>
-                    <h3>Time A</h3>
-                    <div class="score" id="scoreA">0</div>
-                </div>
-                <div>
-                    <h3>Time B</h3>
-                    <div class="score" id="scoreB">0</div>
-                </div>
-            </div>
-            <div class="actions">
-                <button onclick="addPoint('A')">+ PONTO Time A</button>
-                <button onclick="addPoint('B')">+ PONTO Time B</button>
-                <button onclick="resetGame()">Desfazer</button>
-            </div>
+        <section class="interesses">
+            <h2>Interesses</h2>
+            <ul>
+                <li>Programação</li>
+                <li>Academia</li>
+                <li>Vôlei competitivo</li>
+                <li>Dinheiro</li>
+            </ul>
         </section>
-    </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Marcelo Alves. Todos os direitos reservados.</p>
+    </footer>
+
     <script src="script.js"></script>
 </body>
 </html>
